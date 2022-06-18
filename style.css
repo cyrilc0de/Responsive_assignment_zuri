@@ -1,0 +1,170 @@
+html{
+    /* background-image: url(bg-intro-desktop.pgn);
+    background-color: rgba(230,101,123,0.959); */
+    /* background-size:cover; */
+    font-size:16px;
+    font-family: "poppins";
+    font-weight:400,500,600,700;
+}
+
+body{
+     /* background-image:url(image); */
+    background-image: url('bg-intro-desktop.png'); 
+    background-color: rgba(230,101,123,0.959); 
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+
+    /* background-color: rgb(230, 101%, 123%,0.959);
+    font-size:16px; */
+    /* width:70%; */
+    /* margin:auto; */
+    /* display:flex; */
+    /* justify-items:center; */
+    /* align-items:center; */
+    /* align-content:center; */
+    /* font-size:16px; */
+}
+
+.title{
+    font-size: 2.25rem;
+    font-weight: 700;
+    
+}
+p{
+    /* color: white; */
+}
+    
+.sign_up_container{
+    display: flex;
+    flex-direction: column;
+     /* margin:30;
+    padding:30;  
+    position: absolute;
+    left: 50%;
+    right: 50%; 
+    margin-left: -10px;
+    margin-right: -10px;
+    box-sizing:border-box ;
+    display:flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.learn_more_left{
+    height: 200px;
+
+}
+.form_right{
+    display:block;
+    /* background-color: white; */
+    flex-direction: column;
+    
+
+    
+}
+.form_n_click{
+    background-color: white;
+    border-radius:10px;
+    justify-items: center;
+    display: block;
+    width:340px
+    
+    /* margin-right: 70px; */
+
+    
+}
+.learn_more_left, .form_right{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.learn_more_left .copy{
+    color: white;
+    text-align: center;
+    --webkit-font-smoothing: antialiased;
+    --moz-font-smoothing: greyscale;
+}
+.learn_more_left p{
+    font-weight: 400;
+}
+
+.form_right .copy{
+    /* color: white; */
+    text-align: center;
+}
+
+
+
+    form{
+    width: 270px;;
+    background-color: white;
+    background-size: 500px;
+    font-size: 15px;
+    text-align:center;
+    border-radius:20px;
+    justify-content:center;  
+    }
+
+    input{
+        width:270px;
+        margin:10px;
+        padding:10px;
+        border-radius:7px;
+        margin:20px;
+        text-align:center;
+    }
+
+button{
+    width:270px;
+    margin:20px;
+    padding:10px;
+    color:white;
+    background-color: hsl(154,59%,51%);
+    border:none;
+    margin-bottom:30px;
+    border-radius:20px;
+}
+/* para{
+    word-spacing:5px;
+    color:rgb(199,189%,)
+    margin-left:290;
+    align-content:center;
+} */
+
+.cont_copy{
+    background-color: hsl(246, 80%, 39%);
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 33px;
+    padding-right: 33px;
+    /* padding-top: 6px;
+    padding-bottom: 6px; */
+
+
+}
+.cont_copy p{
+    color: white;
+}
+ .copy_click strong{
+        color: hsl(0,100%,74%);
+    }
+@media screen and (min-width:375px){
+    .sign_up_container{
+        flex-direction: row;
+        height: 100vh;
+    }
+    .learn_more_left,
+    .form_right{
+        display: flex;
+        width: 50%;
+        height: auto;
+
+    }
+
+    
+    
+
+}
