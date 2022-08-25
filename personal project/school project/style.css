@@ -1,0 +1,72 @@
+  nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    width: 100%;
+    background-color: purple;
+    position: fixed;
+    top: 0;
+    }
+   a{
+    text-decoration:none;
+    color:black;
+   }
+   body{
+    background-color: navajowhite;
+   }
+   footer{
+    position: fixed;
+    bottom: 0;
+   }
+   button{
+    background-color: slateblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+   }
+
+   button:hover{
+    transform:scale(1.15);
+    transition:0.5;
+    background-color: white;
+    color: slateblue;
+   }
+   h1{
+    text-align: center;
+    font-variant-ligatures:none;
+   }
+   p{
+    color:black;
+    font: 1em sans-serif;
+    font-size:large ;
+   }
+  h1{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Verdana;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .bio {
+    width: 100%;
+  }
+  #give {
+    padding-top: 60px;
+  }
+
+  table, th {
+    padding: 5px;
+  }
+  h2{
+    text-align: left;
+  }
+  img{
+    border-radius: 10px;
+    height:500px;
+    width:800px;
+  }
+
+ 
